@@ -46,7 +46,7 @@ const List: React.FC<Props> = ({ list }) => {
 
   const handleDeleteList = () => {
     dispatch(deleteColumn(list.id));
-    toast.success("Toast deleted");
+    toast.success("List deleted successfully");
   };
 
   const updateName = () => {
